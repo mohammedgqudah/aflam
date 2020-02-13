@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "47ed0b25ead1be571dacdfa2a4740874",
+    "revision": "9eb2e65c3ebcdeb14987b3dc20936b6b",
     "url": "/aflam/index.html"
   },
   {
-    "revision": "0bf33f2dd93f23bf184c",
+    "revision": "199126abe256e0620e6e",
     "url": "/aflam/static/css/main.0688a6d8.chunk.css"
   },
   {
-    "revision": "d73760dbfacd3b1a824f",
-    "url": "/aflam/static/js/2.2ebd84bf.chunk.js"
+    "revision": "2169d5910099ce440d7a",
+    "url": "/aflam/static/js/2.d86c96b7.chunk.js"
   },
   {
     "revision": "d9bee4e26266dab8796c9ed1573a3e49",
-    "url": "/aflam/static/js/2.2ebd84bf.chunk.js.LICENSE.txt"
+    "url": "/aflam/static/js/2.d86c96b7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "0bf33f2dd93f23bf184c",
-    "url": "/aflam/static/js/main.7aba1af5.chunk.js"
+    "revision": "199126abe256e0620e6e",
+    "url": "/aflam/static/js/main.31c0fd82.chunk.js"
   },
   {
     "revision": "baab15f0c537b6b21cd0",
