@@ -1,0 +1,56 @@
+@import "../../settings";
+
+.Home {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1;
+	grid-template-rows: 10% 1fr;
+	.search_con {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		input {
+			border: none;
+			padding: 1rem 0.5rem;
+			background-color: $dark;
+			border-radius: 4px;
+			width: 60%;
+			color: $text-color;
+			outline: none;
+		}
+	}
+	.main {
+		height: 100%;
+		overflow: auto;
+		.movie {
+			cursor: default;
+			margin: 5px 10px;
+			background-color: $dark;
+			transition: all ease 200ms;
+			&:hover {
+				background-color: lighten($dark, 5%);
+				box-shadow: 0 20px 20px rgba(0, 0, 0, 0.13);
+				transform: scale(1.02);
+			}
+			display: inline-block;
+			width: 15%;
+			height: 15rem;
+			box-shadow: 0 10px 10px rgba(0, 0, 0, 0.13);
+			border-radius: 3px;
+			padding: 1rem;
+			color: $text-color;
+			font-size: 1rem;
+			overflow: hidden;
+			text-align: right;
+			img {
+				height: 80%;
+				width: 100%;
+				border-radius: 3px;
+			}
+			.title {
+				// white-space: nowrap;
+				text-overflow: ellipsis;
+			}
+		}
+	}
+}
